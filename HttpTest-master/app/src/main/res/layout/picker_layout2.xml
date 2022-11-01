@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/picker_rel2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="-620dp"
+    android:background="#99232323"
+    android:visibility="gone"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff" >
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/pickerscrlllview2"
+            android:layout_marginTop="-135dp"
+            android:background="#fff" />
+
+        <com.example.gahui.httptest.views.PickerScrollView
+            android:id="@+id/pickerscrlllview2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#ffffff" />
+
+        <Button
+            android:id="@+id/picker_yes2"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_below="@id/pickerscrlllview2"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="-70dp"
+            android:background="#F686B3"
+            android:text="确定"
+            android:stateListAnimator="@null"
+            android:textColor="#ffffff"
+            android:textSize="14dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_below="@id/picker_yes2" />
+    </RelativeLayout>
+
+</RelativeLayout>

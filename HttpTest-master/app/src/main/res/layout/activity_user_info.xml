@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User_info"
+    android:background="#FABCD5">
+
+    <ImageView
+        android:id="@+id/portrait"
+        android:layout_width="113dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:scaleType="centerInside"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/rabbit"
+        />
+
+    <TextView
+        android:id="@+id/info1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi,很高兴在这里遇见你,"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nickname1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="lsy"
+        android:textSize="50dp"
+        android:textColor="#fff"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="120dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="600dp"
+        android:layout_marginTop="200dp"
+        android:background="@android:color/background_light"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/info2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="E-mail："
+        android:textSize="20dp"
+        android:textColor="#F686B3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="220dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/mail1"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="11111"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="220dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/info3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QQ："
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="280dp"
+        android:textColor="#F686B3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/qq1"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="11111"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="280dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:id="@+id/info4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="电话："
+        android:textSize="20dp"
+        android:textColor="#F686B3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="340dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/phone1"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="11111"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="340dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/info5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="目标学校："
+        android:textSize="20dp"
+        android:textColor="#F686B3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="400dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/tschool1"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="11111"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="400dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/info6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="考试日期："
+        android:textSize="20dp"
+        android:textColor="#F686B3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="460dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/exam_time1"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="11111"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="460dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <ImageButton
+        android:id="@+id/modify"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/modification"
+        android:background="@android:color/transparent"
+        android:stateListAnimator="@null"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/modifytext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="修改个人信息"
+        android:textSize="20dp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="550dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <ImageButton
+        android:id="@+id/index"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="18dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_home_black_24dp"
+        android:background="@android:color/transparent"
+        android:stateListAnimator="@null"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回主界面"
+        android:textSize="20dp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="600dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

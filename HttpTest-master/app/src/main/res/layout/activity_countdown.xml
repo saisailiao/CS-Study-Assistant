@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="考研初试倒计时:"
+        android:textSize="40dp"/>
+
+
+    <TextView
+        android:id="@+id/date1"
+        android:padding="10dp"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="考研报名倒计时:"
+        android:textSize="40dp"/>
+
+
+    <TextView
+        android:id="@+id/date2"
+        android:padding="10dp"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="考研报名确认倒计时:"
+        android:textSize="40dp"/>
+
+
+    <TextView
+        android:id="@+id/date3"
+        android:padding="10dp"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="可以打印准考证啦：:"
+        android:textSize="40dp"/>
+
+
+    <TextView
+        android:id="@+id/date4"
+        android:padding="10dp"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
